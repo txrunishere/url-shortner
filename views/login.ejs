@@ -88,6 +88,14 @@
             transition: background-color 0.3s;
         }
 
+        .signup-btn {
+            text-decoration: none;
+        }
+
+        .signup-btn:hover {
+            text-decoration: underline;
+        }
+
         /* Button Hover Effect */
         button:hover {
             background-color: #0056b3;
@@ -115,6 +123,7 @@
         <label>Password</label>
         <input type="text" required name="password" placeholder="Generate a Password">
         <button type="submit">Login</button>
+        <p>Not a Member <a class="signup-btn" href="/signup">Signup</a></p>
     </form>
     
 </body>
